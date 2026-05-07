@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#dce9ee"/>
+  <path d="M0 660L180 500L330 590L500 360L700 570L860 320L1040 540L1200 430V900H0Z" fill="#9db2a9"/>
+  <path d="M0 760L140 680L320 730L500 520L700 720L890 500L1080 700L1200 630V900H0Z" fill="#5d776d"/>
+  <text x="140" y="150" fill="#2a3c35" font-family="Manrope, Arial, sans-serif" font-size="34" font-weight="700">MOUNTAIN VIEW PLACEHOLDER</text>
+</svg>

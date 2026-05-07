@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Casa Mirabella</title>
+  <meta name="description" content="Contact Casa Mirabella for availability questions, guest support, and special requests.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Casa Mirabella home"><span class="brand-mark">CM</span><span><strong>Casa Mirabella</strong><small>Sottoguda, Dolomites</small></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html"><span class="lang lang-en">Home</span><span class="lang lang-it">Home</span></a>
+        <a href="apartment.html"><span class="lang lang-en">Apartment</span><span class="lang lang-it">Appartamento</span></a>
+        <a href="gallery.html"><span class="lang lang-en">Gallery</span><span class="lang lang-it">Galleria</span></a>
+        <a href="explore.html"><span class="lang lang-en">Explore</span><span class="lang lang-it">Dintorni</span></a>
+        <a href="guest-info.html"><span class="lang lang-en">Guest Info</span><span class="lang lang-it">Info Ospiti</span></a>
+        <a href="book.html"><span class="lang lang-en">Book</span><span class="lang lang-it">Prenota</span></a>
+        <a href="contact.html" class="active"><span class="lang lang-en">Contact</span><span class="lang lang-it">Contatti</span></a>
+      </nav>
+      <button class="language-toggle" type="button" aria-label="Toggle language"><span data-lang-label>IT</span></button>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow"><span class="lang lang-en">Contact</span><span class="lang lang-it">Contatti</span></p>
+        <h1><span class="lang lang-en">Questions are welcome before and after booking.</span><span class="lang lang-it">Le domande sono benvenute prima e dopo la prenotazione.</span></h1>
+        <p><span class="lang lang-en">Keep this page warm and easy. It should invite guests to reach out without sounding overly formal.</span><span class="lang lang-it">Mantieni questa pagina accogliente e semplice. Dovrebbe invitare gli ospiti a scrivere senza suonare troppo formale.</span></p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-panel emphasis">
+          <h2><span class="lang lang-en">Get in touch</span><span class="lang lang-it">Scrivici</span></h2>
+          <p><span class="lang lang-en">For availability, special requests, or questions about the apartment, use the contact details below.</span><span class="lang lang-it">Per disponibilita, richieste speciali o domande sull'appartamento, usa i contatti qui sotto.</span></p>
+          <div class="contact-links">
+            <a href="#contact-form">[ADD-EMAIL-HERE]</a>
+            <a href="#contact-form">[ADD-WHATSAPP-NUMBER]</a>
+          </div>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <!-- Static layout only. Replace action with your form handler later if needed. -->
+          <label><span class="lang lang-en">Name</span><span class="lang lang-it">Nome</span><input type="text" name="name" placeholder="Your name / Il tuo nome"></label>
+          <label><span>Email</span><input type="email" name="email" placeholder="name@example.com"></label>
+          <label><span class="lang lang-en">Travel dates</span><span class="lang lang-it">Date del soggiorno</span><input type="text" name="dates" placeholder="[ADD PREFERRED FORMAT]"></label>
+          <label><span class="lang lang-en">Message</span><span class="lang lang-it">Messaggio</span><textarea name="message" rows="6" placeholder="Tell us about your stay / Raccontaci il tuo soggiorno"></textarea></label>
+          <button class="button button-primary" type="submit"><span class="lang lang-en">Send inquiry</span><span class="lang lang-it">Invia richiesta</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>Casa Mirabella</h3><p class="lang lang-en">Friendly contact for future guests and current stays.</p><p class="lang lang-it">Un contatto cordiale per futuri ospiti e soggiorni in corso.</p></div>
+      <div><h4><span class="lang lang-en">Plan your stay</span><span class="lang lang-it">Organizza il soggiorno</span></h4><a href="explore.html"><span class="lang lang-en">Explore the area</span><span class="lang lang-it">Esplora la zona</span></a><a href="guest-info.html"><span class="lang lang-en">Guest info</span><span class="lang lang-it">Info ospiti</span></a></div>
+      <div><h4><span class="lang lang-en">Booking</span><span class="lang lang-it">Prenotazioni</span></h4><a href="book.html">Booking.com / Direct</a><a href="#contact-form">[ADD-EMAIL-HERE]</a></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

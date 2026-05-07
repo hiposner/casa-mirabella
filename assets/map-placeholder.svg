@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#e6ece5"/>
+  <path d="M130 740C280 650 330 410 470 330C620 244 760 360 890 280C970 230 1020 150 1080 110" fill="none" stroke="#6d8b7a" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="520" cy="420" r="24" fill="#8b5f44"/>
+  <circle cx="720" cy="340" r="18" fill="#456455"/>
+  <circle cx="930" cy="250" r="18" fill="#456455"/>
+  <rect x="130" y="120" width="320" height="110" rx="22" fill="#fffaf4"/>
+  <text x="165" y="184" fill="#2b3a34" font-family="Manrope, Arial, sans-serif" font-size="34" font-weight="700">MAP PLACEHOLDER</text>
+  <text x="165" y="645" fill="#2b3a34" font-family="Manrope, Arial, sans-serif" font-size="30">Replace with embedded Google Map, image, or directions graphic</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#efe6da"/>
+  <rect x="110" y="120" width="980" height="660" rx="30" fill="#fffaf3" stroke="#d5c5b0"/>
+  <rect x="180" y="200" width="340" height="250" rx="18" fill="#d8c0a2"/>
+  <rect x="560" y="200" width="280" height="120" rx="18" fill="#c8d1c6"/>
+  <rect x="560" y="350" width="420" height="250" rx="18" fill="#a7b7b0"/>
+  <rect x="180" y="500" width="300" height="120" rx="18" fill="#9b7456"/>
+  <text x="180" y="730" fill="#2b3a34" font-family="Manrope, Arial, sans-serif" font-size="36" font-weight="700">REPLACE WITH APARTMENT INTERIOR PHOTO</text>
+  <text x="180" y="780" fill="#55645d" font-family="Manrope, Arial, sans-serif" font-size="24">Living room, bedroom, kitchen, or detail shot</text>
+</svg>

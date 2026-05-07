@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#eaf1f4"/>
+  <path d="M0 660L170 540L340 620L510 430L720 610L870 390L1050 580L1200 480V900H0Z" fill="#a7bac1"/>
+  <path d="M0 740L170 620L340 700L510 510L720 690L870 470L1050 660L1200 560V900H0Z" fill="#7f98a1"/>
+  <path d="M0 790L170 700L340 770L510 580L720 750L870 540L1050 720L1200 630V900H0Z" fill="#f8fbfc"/>
+  <text x="150" y="160" fill="#304148" font-family="Manrope, Arial, sans-serif" font-size="34" font-weight="700">WINTER PHOTO PLACEHOLDER</text>
+</svg>

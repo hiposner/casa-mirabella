@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Availability & Book | Casa Mirabella</title>
+  <meta name="description" content="Availability and booking page for Casa Mirabella in Sottoguda, Italy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="book">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Casa Mirabella home"><span class="brand-mark">CM</span><span><strong>Casa Mirabella</strong><small>Sottoguda, Dolomites</small></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html"><span class="lang lang-en">Home</span><span class="lang lang-it">Home</span></a>
+        <a href="apartment.html"><span class="lang lang-en">Apartment</span><span class="lang lang-it">Appartamento</span></a>
+        <a href="gallery.html"><span class="lang lang-en">Gallery</span><span class="lang lang-it">Galleria</span></a>
+        <a href="explore.html"><span class="lang lang-en">Explore</span><span class="lang lang-it">Dintorni</span></a>
+        <a href="guest-info.html"><span class="lang lang-en">Guest Info</span><span class="lang lang-it">Info Ospiti</span></a>
+        <a href="book.html" class="active"><span class="lang lang-en">Book</span><span class="lang lang-it">Prenota</span></a>
+        <a href="contact.html"><span class="lang lang-en">Contact</span><span class="lang lang-it">Contatti</span></a>
+      </nav>
+      <button class="language-toggle" type="button" aria-label="Toggle language"><span data-lang-label>IT</span></button>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow"><span class="lang lang-en">Availability / Book</span><span class="lang lang-it">Disponibilita / Prenota</span></p>
+        <h1><span class="lang lang-en">Make booking feel simple, direct, and reassuring.</span><span class="lang lang-it">Rendi la prenotazione semplice, diretta e rassicurante.</span></h1>
+        <p><span class="lang lang-en">This page works as a lightweight booking funnel today, and can later be connected to Booking.com, direct inquiries, or an iCal-based availability system.</span><span class="lang lang-it">Questa pagina funziona gia oggi come un piccolo funnel di prenotazione e puo poi essere collegata a Booking.com, richieste dirette o a un sistema disponibilita basato su iCal.</span></p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container booking-layout">
+        <div class="booking-panel">
+          <h2><span class="lang lang-en">Check dates</span><span class="lang lang-it">Controlla le date</span></h2>
+          <p><span class="lang lang-en">This calendar now supports live sync from your Booking.com iCal feed through a secure PHP endpoint. Guests can quickly see which dates look open before clicking through to book.</span><span class="lang lang-it">Questo calendario ora supporta la sincronizzazione live dal tuo feed iCal di Booking.com tramite un endpoint PHP sicuro. Gli ospiti possono vedere subito quali date sembrano libere prima di cliccare per prenotare.</span></p>
+          <div class="calendar-placeholder availability-widget" data-availability-calendar>
+            <div class="calendar-head">
+              <div>
+                <strong><span class="lang lang-en">Live availability</span><span class="lang lang-it">Disponibilita live</span></strong>
+                <p class="calendar-status" data-calendar-status>
+                  <span class="lang lang-en">Loading availability...</span>
+                  <span class="lang lang-it">Caricamento disponibilita...</span>
+                </p>
+              </div>
+              <div class="calendar-legend" aria-label="Calendar legend">
+                <span><i class="legend-dot is-available"></i><span class="lang lang-en">Available</span><span class="lang lang-it">Libero</span></span>
+                <span><i class="legend-dot is-unavailable"></i><span class="lang lang-en">Unavailable</span><span class="lang lang-it">Occupato</span></span>
+              </div>
+            </div>
+            <div class="calendar-months" data-calendar-months></div>
+            <p class="calendar-note">
+              <span class="lang lang-en">Availability is shown as a helpful guide and should always be confirmed on Booking.com or by direct inquiry.</span>
+              <span class="lang lang-it">La disponibilita e mostrata come riferimento utile e va sempre confermata su Booking.com o con richiesta diretta.</span>
+            </p>
+          </div>
+        </div>
+        <div class="booking-panel emphasis">
+          <h2><span class="lang lang-en">Booking options</span><span class="lang lang-it">Opzioni di prenotazione</span></h2>
+          <div class="booking-actions">
+            <a class="button button-primary" href="[ADD-BOOKING-COM-LINK]">Booking.com</a>
+            <a class="button button-secondary" href="contact.html"><span class="lang lang-en">Direct inquiry</span><span class="lang lang-it">Richiesta diretta</span></a>
+          </div>
+          <div class="rich-text">
+            <p class="lang lang-en">Returning guests, longer stays, or special requests can be handled directly. This makes the page useful even before you connect live availability.</p>
+            <p class="lang lang-it">Gli ospiti di ritorno, i soggiorni piu lunghi o le richieste speciali possono essere gestiti direttamente. Cosi la pagina resta utile anche prima di collegare la disponibilita in tempo reale.</p>
+            <p class="lang lang-en">Suggested direct-booking note: [ADD PAYMENT / DEPOSIT / MINIMUM STAY DETAILS].</p>
+            <p class="lang lang-it">Nota suggerita per la prenotazione diretta: [AGGIUNGI DETTAGLI SU PAGAMENTO / CAPARRA / SOGGIORNO MINIMO].</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-soft">
+      <div class="container details-grid">
+        <article class="info-card"><h3><span class="lang lang-en">Before booking</span><span class="lang lang-it">Prima di prenotare</span></h3><p><span class="lang lang-en">Point guests to the apartment page, guest info page, and how-to-get-here details so expectations feel clear from the start.</span><span class="lang lang-it">Indirizza gli ospiti alla pagina dell'appartamento, alle info ospiti e alle indicazioni su come arrivare, cosi le aspettative sono chiare fin dall'inizio.</span></p></article>
+        <article class="info-card"><h3><span class="lang lang-en">Special requests</span><span class="lang lang-it">Richieste speciali</span></h3><p><span class="lang lang-en">Use this space for late arrival requests, baby equipment, ski-storage questions, or return-stay discounts: [ADD DETAILS].</span><span class="lang lang-it">Usa questo spazio per richieste di arrivo tardivo, attrezzatura per bambini, dubbi su deposito sci o sconti per chi torna: [AGGIUNGI DETTAGLI].</span></p></article>
+        <article class="info-card"><h3><span class="lang lang-en">Calendar integration later</span><span class="lang lang-it">Integrazione calendario in futuro</span></h3><p><span class="lang lang-en">Ready for a future iCal or Booking.com integration. The code is intentionally simple so this page can evolve without rebuilding the site.</span><span class="lang lang-it">Pronta per una futura integrazione iCal o Booking.com. Il codice e volutamente semplice, cosi questa pagina puo evolvere senza rifare il sito.</span></p></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>Casa Mirabella</h3><p class="lang lang-en">A calm booking path with room for direct conversations.</p><p class="lang lang-it">Un percorso di prenotazione tranquillo con spazio per il contatto diretto.</p></div>
+      <div><h4><span class="lang lang-en">Useful links</span><span class="lang lang-it">Link utili</span></h4><a href="apartment.html"><span class="lang lang-en">Apartment details</span><span class="lang lang-it">Dettagli appartamento</span></a><a href="guest-info.html"><span class="lang lang-en">Guest info</span><span class="lang lang-it">Info ospiti</span></a></div>
+      <div><h4><span class="lang lang-en">Direct contact</span><span class="lang lang-it">Contatto diretto</span></h4><a href="contact.html#contact-form">[ADD-EMAIL-HERE]</a><a href="contact.html#contact-form">WhatsApp / Email</a></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Casa Mirabella</title>
+  <meta name="description" content="Photo gallery for Casa Mirabella with apartment, village, mountain, and winter placeholders.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="gallery">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Casa Mirabella home"><span class="brand-mark">CM</span><span><strong>Casa Mirabella</strong><small>Sottoguda, Dolomites</small></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html"><span class="lang lang-en">Home</span><span class="lang lang-it">Home</span></a>
+        <a href="apartment.html"><span class="lang lang-en">Apartment</span><span class="lang lang-it">Appartamento</span></a>
+        <a href="gallery.html" class="active"><span class="lang lang-en">Gallery</span><span class="lang lang-it">Galleria</span></a>
+        <a href="explore.html"><span class="lang lang-en">Explore</span><span class="lang lang-it">Dintorni</span></a>
+        <a href="guest-info.html"><span class="lang lang-en">Guest Info</span><span class="lang lang-it">Info Ospiti</span></a>
+        <a href="book.html"><span class="lang lang-en">Book</span><span class="lang lang-it">Prenota</span></a>
+        <a href="contact.html"><span class="lang lang-en">Contact</span><span class="lang lang-it">Contatti</span></a>
+      </nav>
+      <button class="language-toggle" type="button" aria-label="Toggle language"><span data-lang-label>IT</span></button>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow"><span class="lang lang-en">Gallery</span><span class="lang lang-it">Galleria</span></p>
+        <h1><span class="lang lang-en">Show the apartment, the village, and the feeling of being here.</span><span class="lang lang-it">Racconta l'appartamento, il borgo e la sensazione di essere qui.</span></h1>
+        <p><span class="lang lang-en">Click any image to expand it and give guests a better sense of the apartment before they book.</span><span class="lang lang-it">Clicca su un'immagine per ingrandirla e dare agli ospiti un'idea piu chiara dell'appartamento prima di prenotare.</span></p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="gallery-filter-note"><span class="lang lang-en">A mix of exterior and interior images gives future guests confidence in the space and atmosphere.</span><span class="lang lang-it">Un mix di immagini esterne e interne aiuta i futuri ospiti a percepire meglio lo spazio e l'atmosfera.</span></div>
+        <div class="gallery-grid">
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/building.jpg" data-lightbox-alt="Casa Mirabella exterior"><img src="photos/apartment/building.jpg" alt="Casa Mirabella exterior"><span><span class="lang lang-en">Exterior</span><span class="lang lang-it">Esterno</span></span></button>
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/building2.jpg" data-lightbox-alt="Casa Mirabella building view"><img src="photos/apartment/building2.jpg" alt="Casa Mirabella building view"><span><span class="lang lang-en">Building view</span><span class="lang lang-it">Vista edificio</span></span></button>
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/building3.jpg" data-lightbox-alt="Another exterior view of Casa Mirabella"><img src="photos/apartment/building3.jpg" alt="Another exterior view of Casa Mirabella"><span><span class="lang lang-en">Arrival view</span><span class="lang lang-it">Vista arrivo</span></span></button>
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/livingroom.jpg" data-lightbox-alt="Living room at Casa Mirabella"><img src="photos/apartment/livingroom.jpg" alt="Living room at Casa Mirabella"><span><span class="lang lang-en">Living room</span><span class="lang lang-it">Soggiorno</span></span></button>
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/livingroom2.jpg" data-lightbox-alt="Second living room view at Casa Mirabella"><img src="photos/apartment/livingroom2.jpg" alt="Second living room view at Casa Mirabella"><span><span class="lang lang-en">Living room detail</span><span class="lang lang-it">Dettaglio soggiorno</span></span></button>
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/kitchen.jpg" data-lightbox-alt="Kitchen at Casa Mirabella"><img src="photos/apartment/kitchen.jpg" alt="Kitchen at Casa Mirabella"><span><span class="lang lang-en">Kitchen</span><span class="lang lang-it">Cucina</span></span></button>
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/kitchen%202.jpg" data-lightbox-alt="Second kitchen view at Casa Mirabella"><img src="photos/apartment/kitchen%202.jpg" alt="Second kitchen view at Casa Mirabella"><span><span class="lang lang-en">Kitchen detail</span><span class="lang lang-it">Dettaglio cucina</span></span></button>
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/master.jpg" data-lightbox-alt="Master bedroom at Casa Mirabella"><img src="photos/apartment/master.jpg" alt="Master bedroom at Casa Mirabella"><span><span class="lang lang-en">Master bedroom</span><span class="lang lang-it">Camera matrimoniale</span></span></button>
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/guest.jpg" data-lightbox-alt="Guest bedroom at Casa Mirabella"><img src="photos/apartment/guest.jpg" alt="Guest bedroom at Casa Mirabella"><span><span class="lang lang-en">Guest room</span><span class="lang lang-it">Camera ospiti</span></span></button>
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/hall.jpg" data-lightbox-alt="Hallway at Casa Mirabella"><img src="photos/apartment/hall.jpg" alt="Hallway at Casa Mirabella"><span><span class="lang lang-en">Hallway</span><span class="lang lang-it">Ingresso</span></span></button>
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/bath.jpg" data-lightbox-alt="Bathroom at Casa Mirabella"><img src="photos/apartment/bath.jpg" alt="Bathroom at Casa Mirabella"><span><span class="lang lang-en">Bathroom</span><span class="lang lang-it">Bagno</span></span></button>
+          <button class="gallery-item" type="button" data-lightbox-src="photos/apartment/bath2.jpg" data-lightbox-alt="Second bathroom view at Casa Mirabella"><img src="photos/apartment/bath2.jpg" alt="Second bathroom view at Casa Mirabella"><span><span class="lang lang-en">Bathroom detail</span><span class="lang lang-it">Dettaglio bagno</span></span></button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="lightbox" hidden><button class="lightbox-close" type="button" aria-label="Close image">×</button><img class="lightbox-image" src="" alt=""></div>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>Casa Mirabella</h3><p class="lang lang-en">A visual introduction to the apartment and its setting.</p><p class="lang lang-it">Un'introduzione visiva all'appartamento e al suo contesto.</p></div>
+      <div><h4><span class="lang lang-en">Continue</span><span class="lang lang-it">Continua</span></h4><a href="apartment.html"><span class="lang lang-en">Apartment details</span><span class="lang lang-it">Dettagli appartamento</span></a><a href="explore.html"><span class="lang lang-en">Explore the area</span><span class="lang lang-it">Esplora il territorio</span></a></div>
+      <div><h4><span class="lang lang-en">Book</span><span class="lang lang-it">Prenota</span></h4><a href="book.html">[ADD BOOKING LINK]</a><a href="contact.html#contact-form"><span class="lang lang-en">Contact us</span><span class="lang lang-it">Contattaci</span></a></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

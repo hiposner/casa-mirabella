@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d7e6ec"/><stop offset="100%" stop-color="#f2ede2"/></linearGradient></defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <path d="M0 650L200 520L360 610L560 420L760 560L960 340L1220 600L1460 470L1600 540V1000H0Z" fill="#91a29a"/>
+  <path d="M0 740L180 660L340 720L540 560L760 710L980 500L1220 720L1440 630L1600 690V1000H0Z" fill="#5d7469"/>
+  <rect y="790" width="1600" height="210" fill="#cab39a"/>
+  <text x="90" y="120" fill="#2c3f37" font-family="Manrope, Arial, sans-serif" font-size="42" font-weight="700">REPLACE WITH YOUR REAL HERO PHOTO</text>
+  <text x="90" y="176" fill="#4a5b55" font-family="Manrope, Arial, sans-serif" font-size="28">Suggested image: exterior, balcony view, or best mountain scene</text>
+</svg>

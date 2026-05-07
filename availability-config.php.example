@@ -1,0 +1,15 @@
+<?php
+declare(strict_types=1);
+
+/*
+  Copy this file to availability-config.php and paste your private Booking.com iCal URL.
+  Do not commit the real file if it contains your live private token.
+*/
+
+define('BOOKING_ICS_URL', 'https://ical.booking.com/v1/export?t=replace-this-with-a-fresh-private-token');
+
+/*
+  Cache time in seconds.
+  900 = 15 minutes
+*/
+define('AVAILABILITY_CACHE_TTL', 900);
