@@ -141,6 +141,17 @@ Easy hosting options include:
 - GoDaddy shared hosting with PHP
 - any PHP-capable host
 
+### Cloudflare Pages (static deployment)
+
+This repository can be deployed as a static Cloudflare Pages project with these settings:
+
+- Framework preset: `None`
+- Build command: `exit 0`
+- Build output directory: `.`
+- Root directory: leave blank (repository root)
+
+`availability.php` and its private configuration example remain in the repository for a future PHP-capable deployment. Cloudflare Pages does not execute PHP, and the booking page deliberately does not request that endpoint unless a future deployment explicitly adds a `data-availability-endpoint` attribute to the calendar element.
+
 ## Notes
 
 - The design is mobile-friendly and uses plain HTML, CSS, and JavaScript only.

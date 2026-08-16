@@ -1,3 +1,17 @@
+# Private runtime configuration and generated availability data
 availability-config.php
 cache/availability-cache.json
+
+# Local environment files and certificates
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+
+# Local deployment and operating-system files
 .netlify
+.wrangler/
+.DS_Store
+Thumbs.db

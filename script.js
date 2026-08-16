@@ -107,6 +107,9 @@ if (lightbox && lightboxImage && lightboxClose) {
 const availabilityRoot = document.querySelector("[data-availability-calendar]");
 
 if (availabilityRoot) {
+  // The PHP endpoint is retained for a future PHP-capable host. Static deployments
+  // enable it explicitly with data-availability-endpoint when that service exists.
+  const availabilityEndpoint = availabilityRoot.getAttribute("data-availability-endpoint");
   const monthsRoot = availabilityRoot.querySelector("[data-calendar-months]");
   const statusRoot = availabilityRoot.querySelector("[data-calendar-status]");
   const weekdays = {
@@ -209,10 +212,18 @@ if (availabilityRoot) {
   };
 
   const fetchAvailability = async () => {
+    if (!availabilityEndpoint) {
+      setCalendarStatus(
+        "Live availability is not enabled yet. Please use the Booking.com link or contact us directly.",
+        "La disponibilita live non e ancora attiva. Usa il link Booking.com o contattaci direttamente."
+      );
+      return;
+    }
+
     setCalendarStatus("Loading availability...", "Caricamento disponibilita...");
 
     try {
-      const response = await fetch("availability.php");
+      const response = await fetch(availabilityEndpoint);
       const payload = await response.json();
 
       if (!response.ok || !payload.ok) {
