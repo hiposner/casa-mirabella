@@ -40,7 +40,7 @@ button, input, textarea { font: inherit; }
   top: 0;
   z-index: 20;
   backdrop-filter: blur(18px);
-  background: rgba(247, 242, 235, 0.84);
+  background: #f5f5dc;
   border-bottom: 1px solid rgba(36, 49, 41, 0.08);
 }
 
@@ -52,10 +52,38 @@ button, input, textarea { font: inherit; }
   min-height: 84px;
 }
 
-.brand { display: inline-flex; align-items: center; gap: 0.9rem; flex-shrink: 0; }
-.brand strong, .brand small { display: block; }
-.brand strong { font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase; }
-.brand small { color: var(--text-soft); }
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  flex-shrink: 0;
+}
+.brand-icon {
+  width: 140px;
+  height: 84px;
+  display: block;
+  object-fit: contain;
+}
+.brand-text {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: flex-start;
+}
+.brand-name {
+  display: block;
+  width: 175px;
+  height: auto;
+  filter: hue-rotate(90deg) saturate(2) brightness(0.5);
+}
+.brand-tagline {
+  display: block;
+  width: 125px;
+  height: auto;
+  opacity: 0.95;
+  filter: hue-rotate(90deg) saturate(2) brightness(0.3);
+}
+.brand strong, .brand small { display: none; }
 
 .brand-mark {
   width: 48px;
@@ -116,12 +144,17 @@ button, input, textarea { font: inherit; }
   overflow: clip;
 }
 
+
+
+
 .hero-media, .hero-overlay { position: absolute; inset: 0; }
-.hero-media img { width: 100%; height: 100%; object-fit: cover; }
+.hero-media img { width: 100%; height: 100%; object-fit: cover; opacity:0.65
+}
+
 .hero-overlay {
-  background:
-    linear-gradient(180deg, rgba(25, 35, 30, 0.18), rgba(25, 35, 30, 0.65)),
-    linear-gradient(90deg, rgba(24, 31, 27, 0.72) 0%, rgba(24, 31, 27, 0.18) 55%, rgba(24, 31, 27, 0.24) 100%);
+   background:
+    linear-gradient(180deg, rgba(5, 10, 8, 0.25), rgba(5, 10, 8, 0.65)),
+    linear-gradient(90deg, rgba(5, 10, 8, 0.75) 0%, rgba(5, 10, 8, 0.25) 55%, rgba(5, 10, 8, 0.35) 100%);
 }
 
 .hero-content {
@@ -129,7 +162,7 @@ button, input, textarea { font: inherit; }
   z-index: 1;
   padding: 8rem 0 6rem;
   color: #fbf8f3;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .eyebrow {
@@ -227,6 +260,7 @@ p { margin: 0; line-height: 1.7; color: var(--text-soft); }
 
 .info-card, .testimonial, .manual-card, .icon-card, .amenity-card, .booking-panel, .contact-panel, .contact-form { padding: 1.6rem; }
 .media-panel, .location-map { overflow: hidden; border-radius: var(--radius); box-shadow: var(--shadow); }
+.location-map { aspect-ratio: 4 / 3; }
 .media-panel img, .location-map img { width: 100%; height: 100%; object-fit: cover; }
 .amenity-icon {
   width: 44px;
