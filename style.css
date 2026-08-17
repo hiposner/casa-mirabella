@@ -497,6 +497,9 @@ p { margin: 0; line-height: 1.7; color: var(--text-soft); }
 .site-footer a { display: block; margin-bottom: 0.55rem; color: var(--text-soft); }
 
 .lang { display: none; }
+html:not([data-language]) .lang-it { display: none !important; }
+html:not([data-language]) .lang-en { display: inline; }
+html:not([data-language]) p.lang-en { display: block; }
 html[data-language="en"] .lang-it,
 html[data-language="it"] .lang-en { display: none !important; }
 html[data-language="en"] .lang-en,
